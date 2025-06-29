@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +10,8 @@
 <body class="p-5">
     <!-- js bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-    <div class="container">
-        <div  class="col-12 shadow-lg p-6 mt-5 mb-5 mx-auto bg-body-tertiary rounded">
+    <div class="container position-fixed">
+        <div  class="col-12 shadow-sm mb-5 mx-auto bg-body-tertiary rounded">
             <table class="navbar">
                 <td>
                     <a href="#home">
@@ -36,11 +36,16 @@
                         Veille technologique
                     </a>
                 </td>
+                <td>
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </td>
             </table>
         </div>
     </div>
     <!-- Section à propos -->
-    <div class="text-center" id="home">
+    <div class="text-center mb-5" id="home">
         <h1>Ny Aina Rabarisoa</h1>
         <p> 
         Après avoir obtenu mon baccalauréat
@@ -62,8 +67,14 @@
         </p>
         <h4>Le BTS SIO propose deux options :</h4>
         <div class="row">
-            <div class="col-6">Option SISR</div>
-            <div class="col-6">Option SLAM</div>
+            <div class="col-6">
+                <h5>Option SISR</h5>
+                <p>La spécialité SISR (Solutions d’Infrastructure, Systèmes et Réseaux), centrée sur l’installation, la maintenance et la sécurisation des réseaux et équipements informatiques.</p>
+            </div>
+            <div class="col-6">
+                <h5>Option SLAM</h5>
+                <p>La spécialité SLAM (Solutions Logicielles et Applications Métiers), axée sur le développement d’applications, la programmation, la gestion de bases de données et la conception de solutions logicielles adaptées aux besoins des entreprises.</p>
+            </div>
         </div>
         <h2>Mes compétences</h2>
         <div>
@@ -87,7 +98,7 @@
     </div>
     <!-- CV -->
     <div class="text-center" id="cv">
-        Mon CV
+        <h2>Mon CV</h2>
     </div>
     <!-- Section veille technologique -->
     <div class="text-center" id="veille">
@@ -98,6 +109,29 @@
             scientifiques et techniques.
         </p>
     </div>
+    <!-- Section contact -->
+    <div class="text-center" id="contact">
+        <h2>Contactez-moi</h2>
+        <form id="supportForm" enctype="multipart/form-data" action="L'URL DE TRAITEMENT" method="POST">
+            <div class="col-7">
+                <div class="row mb-3">
+                    <div class="col-6">
+                        <input placeholder="Nom" type="name" required>
+                    </div>
+                    <div class="col-6">
+                        <input placeholder="Prénom" type="name" required>
+                    </div>
+                </div>
+                <div class="row mb-3 mx-5">
+                    <input placeholder="Courriel">
+                </div>
+                <div class="row mx-5">
+                    <textarea type="text" placeholder="Votre message..." rows="6" required></textarea>
+                </div>
+            </div>
+        </form>
+    </div>
+    
     <!-- JavaScript -->
     <script></script>
 </body>
