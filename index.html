@@ -1,67 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- css bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body class="p-5">
     <!-- js bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- Topbar -->
     <div class="container position-fixed">
-        <div  class="col-12 shadow-sm mb-5 mx-auto bg-body-tertiary rounded">
-            <table class="navbar">
-                <td>
-                    <a href="#home">
-                        À propos
-                    </a>
-                </td>
-                <td>
-                    <a href="#parcours">
-                        Mon parcours
-                    </a>
-                <td>
-                    <a href="#projets">
-                        Mes projets
-                    </a>
-                <td>
-                    <a href="CV_RABARISOA.pdf">
-                        Mon CV
-                    </a>
-                </td>
-                <td>
-                    <a href="#veille">
-                        Veille technologique
-                    </a>
-                </td>
-                <td>
-                    <a href="#contact">
-                        Contact
-                    </a>
-                </td>
-            </table>
+        <div class="col-12 shadow-sm mb-5 mx-auto bg-body-tertiary rounded">
+            <nav class="bg-body-tertiary shadow-sm mb-5 rounded px-3 py-2">
+                <div class="d-flex justify-content-center flex-wrap gap-3">
+                    <a class="text-decoration-none fw-medium text-dark" href="#home">À propos</a>
+                    <a class="text-decoration-none fw-medium text-dark" href="#parcours">Mon parcours</a>
+                    <a class="text-decoration-none fw-medium text-dark" href="#projets">Mes projets</a>
+                    <a class="text-decoration-none fw-medium text-dark" href="CV_RABARISOA.pdf" target="_blank">Mon CV</a>
+                    <a class="text-decoration-none fw-medium text-dark" href="#veille">Veille technologique</a>
+                    <a class="text-decoration-none fw-medium text-dark" href="#contact">Contact</a>
+                </div>
+            </nav>
         </div>
     </div>
     <!-- Section à propos -->
     <div class="text-center mb-5" id="home">
         <h1>Ny Aina Rabarisoa</h1>
-        <p> 
-        Après avoir obtenu mon baccalauréat
-        en 2021 à Madagascar, j'ai exploré plusieurs filières avant de trouver celle qui me passionne
-        véritablement. Initialement, je m'étais orientée vers la science de gestion, avant de me tourner
-        vers l'Administration Économique et Sociale (AES), mais aucun de ces domaines ne correspondait
-        entièrement à mes attentes. C'est ainsi que, après une réflexion approfondie et un intérêt
-        croissant pour les technologies et le développement informatique, j'ai pris la décision de rejoindre
-        le BTS SIO, un programme qui combine mes compétences analytiques et ma passion pour le numérique.
-        Ce choix me permet d'acquérir des connaissances solides dans le domaine de l'informatique,
-        et j'aspire à en faire un atout pour ma future carrière professionnelle.
+        <p>
+            Après avoir obtenu mon baccalauréat
+            en 2021 à Madagascar, j'ai exploré plusieurs filières avant de trouver celle qui me passionne
+            véritablement. Initialement, je m'étais orientée vers la science de gestion, avant de me tourner
+            vers l'Administration Économique et Sociale (AES), mais aucun de ces domaines ne correspondait
+            entièrement à mes attentes. C'est ainsi que, après une réflexion approfondie et un intérêt
+            croissant pour les technologies et le développement informatique, j'ai pris la décision de rejoindre
+            le BTS SIO, un programme qui combine mes compétences analytiques et ma passion pour le numérique.
+            Ce choix me permet d'acquérir des connaissances solides dans le domaine de l'informatique,
+            et j'aspire à en faire un atout pour ma future carrière professionnelle.
         </p>
         <h2>Qu'est-ce que le BTS SIO ?</h2>
         <p>
             Un BTS SIO est un brevet de technicien supérieur services informatiques
-            aux organisations. Il s'agit d'un diplôme de niveau 5 au RNCP (répertoire 
+            aux organisations. Il s'agit d'un diplôme de niveau 5 au RNCP (répertoire
             national des certifications professionnelles) qui se prépare en deux ans après
             le baccalauréat, et qui débouche sur l'obtention d'un bac+2.
         </p>
@@ -69,39 +56,50 @@
         <div class="row">
             <div class="col-6">
                 <h5>Option SISR</h5>
-                <p>La spécialité SISR (Solutions d’Infrastructure, Systèmes et Réseaux), centrée sur l’installation, la maintenance et la sécurisation des réseaux et équipements informatiques.</p>
+                <p>La spécialité SISR (Solutions d’Infrastructure, Systèmes et Réseaux), centrée sur l’installation, la
+                    maintenance et la sécurisation des réseaux et équipements informatiques.</p>
             </div>
             <div class="col-6">
                 <h5>Option SLAM</h5>
-                <p>La spécialité SLAM (Solutions Logicielles et Applications Métiers), axée sur le développement d’applications, la programmation, la gestion de bases de données et la conception de solutions logicielles adaptées aux besoins des entreprises.</p>
+                <p>La spécialité SLAM (Solutions Logicielles et Applications Métiers), axée sur le développement
+                    d’applications, la programmation, la gestion de bases de données et la conception de solutions
+                    logicielles adaptées aux besoins des entreprises.</p>
             </div>
         </div>
-        <h2>Mes compétences</h2>
+        <h2 class="mb-4">Mes compétences</h2>
         <div>
             <img src="images/php_emblem (1).png" style="width: 150px; height: 100px">
             <img src="images/kotlin-logo.png" style="width: 100px; height: 100px">
             <img src="images/mysql_PNG22.png" style="width: 150px; height: 200px">
-            <img src="images/Python-Emblem.png" style="width: 150px; height: 100px">
-            <img src="images/javascript-logo.webp" style="width: 200px; height: 100px">
+            <img src="images/Python-Emblem.png" style="width: 170px; height: 110px">
+            <img src="images/javascript-logo.webp" style="width: 225px; height: 110px">
             <img src="images/html5-logo-html-5-5.png" style="width: 100px; height: 100px">
             <img src="images/logo-css-3-1536.png" style="width: 120px; height: 120px">
         </div>
     </div>
     <!-- Section parcours -->
-    <div class="text-center" id="parcours">
+    <div class="text-center mb-4" id="parcours">
         <h2>Mon parcours</h2>
-        
+        <h2>Mes stages</h2>
+        <div>
+            <h5>Stage de première année</h5>
+            <ul>
+                <p>Entreprise : <strong>SISMANI</strong></p>
+                <p>Période : 19/05/2025 - 27/06/2025</p>
+            </ul>
+        </div>
+        <div>Stage de deuxième année</div>
     </div>
     <!-- Section projets -->
-    <div class="text-center" id="projets">
+    <div class="text-center mb-4" id="projets">
         <h2>Mes projets</h2>
     </div>
     <!-- CV -->
-    <div class="text-center" id="cv">
+    <div class="text-center mb-4" id="cv">
         <h2>Mon CV</h2>
     </div>
     <!-- Section veille technologique -->
-    <div class="text-center" id="veille">
+    <div class="text-center mb-4" id="veille">
         <h2>Veille technologique</h2>
         <p>
             La veille technologique est un processus cyclique de gestion de l'information, tendant à
@@ -110,28 +108,31 @@
         </p>
     </div>
     <!-- Section contact -->
-    <div class="text-center" id="contact">
-        <h2>Contactez-moi</h2>
-        <form id="supportForm" enctype="multipart/form-data" action="L'URL DE TRAITEMENT" method="POST">
-            <div class="col-7">
-                <div class="row mb-3">
-                    <div class="col-6">
-                        <input placeholder="Nom" type="name" required>
-                    </div>
-                    <div class="col-6">
-                        <input placeholder="Prénom" type="name" required>
-                    </div>
+    <div class="row text-center" id="contact">
+        <h2 class="mb-4">Contactez-moi</h2>
+        <div class="col-7">
+            <form id="contactForm" action="..." method="POST">
+                <div class="row mb-3 mx-5">
+                    <input class="form-control" placeholder="Nom" type="text" name="name" required>
                 </div>
                 <div class="row mb-3 mx-5">
-                    <input placeholder="Courriel">
+                    <input class="form-control" placeholder="Courriel" type="email" name="email" required>
                 </div>
                 <div class="row mx-5">
-                    <textarea type="text" placeholder="Votre message..." rows="6" required></textarea>
+                    <textarea class="form-control" placeholder="Votre message..." name="message" rows="6"
+                        required></textarea>
                 </div>
-            </div>
-        </form>
+                <button type="submit" class="btn btn-primary my-3">Envoyer</button>
+            </form>
+        </div>
+        <div class="col-5">
+            <i class="bi bi-github"></i>
+        </div>
     </div>
-    
+
+    <!-- Style CSS -->
+    <style>
+    </style>
     <!-- JavaScript -->
     <script></script>
 </body>
